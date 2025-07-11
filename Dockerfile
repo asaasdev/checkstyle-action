@@ -2,7 +2,7 @@ FROM openjdk:8-alpine
 
 ENV REVIEWDOG_VERSION=v0.12.0
 
-ENV CHECKSTYLE_VERSION=8.42
+ENV CHECKSTYLE_VERSION=9.3
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
