@@ -1,8 +1,8 @@
-FROM openjdk:8-alpine
+FROM eclipse-temurin:11-alpine
 
 ENV REVIEWDOG_VERSION=v0.12.0
 
-ENV CHECKSTYLE_VERSION=9.3
+ENV CHECKSTYLE_VERSION=10.26.1
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
